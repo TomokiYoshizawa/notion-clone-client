@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "https://notion-clone-server-09ad1a0815c4.herokuapp.com";
 const getToke = () => localStorage.getItem("token");
 
 const axiosClient = axios.create({
